@@ -1,0 +1,36 @@
+.header{
+    background-color:#1f2937;
+    font-size: 24px;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+
+}
+.logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+a{
+    font-size:22px ;
+    padding: 8px; ;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+
+
+ul {
+    /* this removes dot from the lists */
+    list-style-type: none;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    gap: 10px;
+}
