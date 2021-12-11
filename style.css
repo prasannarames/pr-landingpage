@@ -35,8 +35,10 @@ ul {
 .container{
     background-color: azure;
     display: flex;
-    flex-direction: column;
+    flex: 1 1 auto;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: flex-start;
 }
 h1{
@@ -52,4 +54,7 @@ p{
 .signup{
     padding: 8px 16px;
     border-radius: 8px;
+    background-color:royalblue;
+    border: 1px solid white;
+    color: white ;
 }
